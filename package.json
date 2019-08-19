@@ -1,7 +1,7 @@
 {
-  "name": "mongoose-type-email",
-  "version": "1.0.11",
-  "description": "An email field-type for Mongoose schemas",
+  "name": "mongoose-type-phone",
+  "version": "1.0.0",
+  "description": "A phone field-type for Mongoose schemas",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -9,20 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/konsumer/mongoose-type-email.git"
+    "url": "https://github.com/PROger4ever-NodeJS/mongoose-type-phone.git"
   },
   "keywords": [
     "mongoose",
     "types",
-    "email",
+    "phone",
     "schema"
   ],
-  "author": "David Konsumer <konsumer@jetboystudio.com>",
+  "author": "PROger4ever <PROger4ever@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/konsumer/mongoose-type-email/issues"
+    "url": "https://github.com/PROger4ever-NodeJS/mongoose-type-phone/issues"
   },
-  "homepage": "https://github.com/konsumer/mongoose-type-email",
+  "homepage": "https://github.com/PROger4ever-NodeJS/mongoose-type-phone",
   "devDependencies": {
     "jest": "^24.7.1",
     "mockingoose": "^2.9.1",
@@ -33,7 +33,8 @@
     "mongoose": "*"
   },
   "dependencies": {
-    "cryptiles": "^4.1.2"
+    "cryptiles": "^4.1.2",
+    "google-libphonenumber": "^3.2.3"
   },
   "jest": {
     "testEnvironment": "node"
